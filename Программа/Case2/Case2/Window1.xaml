@@ -1,0 +1,27 @@
+﻿<Window x:Class="Case2.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Case2"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Label Content="Административная панель" HorizontalAlignment="Left" Margin="272,26,0,0" VerticalAlignment="Top" Height="51" Width="286" FontSize="22"/>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="0,139,0,293" RenderTransformOrigin="0.5,0.5">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+        </Border>
+        <Label Content="Монеты" HorizontalAlignment="Left" Margin="384,63,0,0" VerticalAlignment="Top" FontSize="14" MouseDown="Label_MouseDown"/>
+        <Label Content="Напитки" HorizontalAlignment="Left" Margin="384,85,0,0" VerticalAlignment="Top" FontSize="14" MouseDown="Label_MouseDown_1"/>
+        <Label Content="Отчет" HorizontalAlignment="Left" Margin="392,105,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="На гравную форму горгового автомата" HorizontalAlignment="Left" Margin="563,67,0,0" VerticalAlignment="Top" MouseDown="Label_MouseDown_2"/>
+
+    </Grid>
+</Window>

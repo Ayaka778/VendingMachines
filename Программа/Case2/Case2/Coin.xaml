@@ -1,0 +1,27 @@
+﻿<Window x:Class="Case2.Coin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Case2"
+        mc:Ignorable="d"
+        Title="Coin" Height="450" Width="800"  ResizeMode="NoResize">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="100" Margin="85,76,0,0" VerticalAlignment="Top" Width="100" Source="/Resources/Coin1.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="632,76,0,0" VerticalAlignment="Top" Width="100" Source="/Resources/Coin10.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="278,71,0,0" VerticalAlignment="Top" Width="100" Source="/Resources/Coin2.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="463,76,0,0" VerticalAlignment="Top" Width="100" Source="/Resources/Coin5.jpg"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Margin="75,173,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb2" HorizontalAlignment="Left" Margin="268,173,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb3" HorizontalAlignment="Left" Margin="453,173,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb4" HorizontalAlignment="Left" Margin="622,173,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="" HorizontalAlignment="Left" Margin="124,202,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cb1" Content="" HorizontalAlignment="Left" Margin="124,202,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cb4" Content="" HorizontalAlignment="Left" Margin="672,198,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cb3" Content="" HorizontalAlignment="Left" Margin="503,202,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cb2" Content="" HorizontalAlignment="Left" Margin="318,202,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="bt1" Content="Сохранить" HorizontalAlignment="Left" Margin="378,292,0,0" VerticalAlignment="Top" Height="31" Width="73" Click="bt1_Click"/>
+
+        
+    </Grid>
+</Window>
